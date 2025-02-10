@@ -1,9 +1,12 @@
 package com.eonoohx.mytuxtla.data
 
-enum class CategoryPlaceType(val categoryPlace: String) {
-    COFFEE("Coffee Shops"),
-    RESTAURANTS("Restaurants"),
-    KID("Kid-friendly Places"),
-    PARKS("Parks"),
-    SHOPPING("Shopping Places")
+import androidx.annotation.StringRes
+import com.eonoohx.mytuxtla.R
+
+enum class CategoryPlaceType(@StringRes val categoryPlace: Int) {
+    COFFEE_SHOPS(R.string.coffee_shops),
+    RESTAURANTS(R.string.restaurants),
+    FAMILY_PLACES(R.string.family_places),
+    PARKS(R.string.parks),
+    SHOPPING_PLACES(R.string.shopping_places)
 }

@@ -2,8 +2,8 @@ package com.eonoohx.mytuxtla.data.local
 
 import com.eonoohx.mytuxtla.R
 import com.eonoohx.mytuxtla.data.CategoryPlaceType
-import com.eonoohx.mytuxtla.model.Category
 import com.eonoohx.mytuxtla.model.Place
+import com.eonoohx.mytuxtla.model.PlaceCategory
 
 object PlacesStoreDataProvider {
     val listOfPlaces = listOf(
@@ -11,17 +11,17 @@ object PlacesStoreDataProvider {
         Place(
             R.string.aroma_espresso,
             R.string.aroma_espresso_info,
-            CategoryPlaceType.COFFEE.name,
+            CategoryPlaceType.COFFEE_SHOPS.name,
             R.drawable.aroma_espresso
         ),
         Place(
             R.string.cafe_san_carlos, R.string.cafe_san_carlos_info,
-            CategoryPlaceType.COFFEE.name,
+            CategoryPlaceType.COFFEE_SHOPS.name,
             R.drawable.cafe_san_carlos
         ),
         Place(
             R.string.cesmach_cafe, R.string.cesmach_cafe_info,
-            CategoryPlaceType.COFFEE.name,
+            CategoryPlaceType.COFFEE_SHOPS.name,
             R.drawable.cesmach_cafe
         ),
 
@@ -49,14 +49,19 @@ object PlacesStoreDataProvider {
         Place(
             R.string.convivencia_infantil,
             R.string.convivencia_infantil_info,
-            CategoryPlaceType.KID.name,
+            CategoryPlaceType.FAMILY_PLACES.name,
             R.drawable.convivencia_infantil
         ),
-        Place(R.string.zoomat, R.string.zoomat_info, CategoryPlaceType.KID.name, R.drawable.zoomat),
+        Place(
+            R.string.zoomat,
+            R.string.zoomat_info,
+            CategoryPlaceType.FAMILY_PLACES.name,
+            R.drawable.zoomat
+        ),
         Place(
             R.string.museo_marimba,
             R.string.museo_marimba_info,
-            CategoryPlaceType.KID.name,
+            CategoryPlaceType.FAMILY_PLACES.name,
             R.drawable.museo_marimba
         ),
 
@@ -84,43 +89,42 @@ object PlacesStoreDataProvider {
         Place(
             R.string.galerias_boulevard,
             R.string.galerias_boulevard_info,
-            CategoryPlaceType.SHOPPING.name,
+            CategoryPlaceType.SHOPPING_PLACES.name,
             R.drawable.galerias_boulevard
         ),
         Place(
             R.string.plaza_crystal,
             R.string.plaza_crystal_info,
-            CategoryPlaceType.SHOPPING.name,
+            CategoryPlaceType.SHOPPING_PLACES.name,
             R.drawable.plaza_crystal
         ),
         Place(
             R.string.plaza_las_americas,
             R.string.plaza_las_americas_info,
-            CategoryPlaceType.SHOPPING.name,
+            CategoryPlaceType.SHOPPING_PLACES.name,
             R.drawable.plaza_las_americas
         )
     )
 
     val listOfCategories = listOf(
-        Category(
-            CategoryPlaceType.SHOPPING.name,
-            R.string.coffee_shops_info,
+        PlaceCategory(
+            CategoryPlaceType.COFFEE_SHOPS.categoryPlace,
             R.drawable.aroma_espresso
         ),
-        Category(
-            CategoryPlaceType.RESTAURANTS.name,
-            R.string.restaurants_info,
+        PlaceCategory(
+            CategoryPlaceType.RESTAURANTS.categoryPlace,
             R.drawable.la_mansion
         ),
-        Category(
-            CategoryPlaceType.KID.name,
-            R.string.kid_friendly_places_info,
+        PlaceCategory(
+            CategoryPlaceType.FAMILY_PLACES.categoryPlace,
             R.drawable.convivencia_infantil
         ),
-        Category(CategoryPlaceType.PARKS.name, R.string.parks_info, R.drawable.parque_marimba),
-        Category(
-            CategoryPlaceType.SHOPPING.name,
-            R.string.shopping_centers_info,
+        PlaceCategory(
+            CategoryPlaceType.PARKS.categoryPlace,
+            R.drawable.parque_marimba
+        ),
+        PlaceCategory(
+            CategoryPlaceType.SHOPPING_PLACES.categoryPlace,
             R.drawable.galerias_boulevard
         )
     )

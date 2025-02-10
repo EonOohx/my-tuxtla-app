@@ -40,6 +40,12 @@ android {
 }
 
 dependencies {
+    // Navigation librearies
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    // View Model library
+    implementation(libs.lifecycle.viewmodel.compose.android)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
