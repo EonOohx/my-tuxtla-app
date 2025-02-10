@@ -1,3 +1,86 @@
 <resources>
     <string name="app_name">MyTuxtla</string>
+
+    <!-- Coffee Shops -->
+    <string name="aroma_espresso">Aroma Espresso</string>
+    <string name="aroma_espresso_info">Conocido por su excelente café y ambiente acogedor.</string>
+
+    <string name="cafe_san_carlos">Café San Carlos</string>
+    <string name="cafe_san_carlos_info">Ofrece una variedad de bebidas y postres en un entorno agradable.</string>
+
+    <string name="cesmach_cafe">Cesmach Café</string>
+    <string name="cesmach_cafe_info">Destaca por su café orgánico y ambiente relajado.</string>
+
+    <string name="cafe_chichon">Café Chichón Parque de la Marimba</string>
+    <string name="cafe_chichon_info">Ubicado cerca del Parque de la Marimba, ideal para disfrutar de una bebida mientras escuchas música en vivo.</string>
+
+    <string name="quintana_cafe">Quintana Café</string>
+    <string name="quintana_cafe_info">Ofrece un ambiente acogedor y una excelente selección de cafés y alimentos.</string>
+
+    <!-- Restaurants -->
+    <string name="la_mansion">La Mansión</string>
+    <string name="la_mansion_info">Reconocido por su excelente servicio y variedad de platillos.</string>
+
+    <string name="condimento">Restaurante Condimento</string>
+    <string name="condimento_info">Ofrece cocina mexicana y latina en un ambiente familiar.</string>
+
+    <string name="las_pichanchas">Las Pichanchas</string>
+    <string name="las_pichanchas_info">Famoso por su ambiente tradicional chiapaneco y platillos típicos.</string>
+
+    <string name="vips_oriente">Vips Tuxtla Oriente</string>
+    <string name="vips_oriente_info">Cadena de restaurantes con área de juegos para niños, ideal para familias.</string>
+
+    <string name="restaurante_marimba">Restaurante del Parque de la Marimba</string>
+    <string name="restaurante_marimba_info">Ofrece comida tradicional y cuenta con área de juegos para niños.</string>
+
+    <!-- Kid-Friendly Places -->
+    <string name="convivencia_infantil">Parque Convivencia Infantil</string>
+    <string name="convivencia_infantil_info">Espacio recreativo con diversas atracciones para los más pequeños.</string>
+
+    <string name="zoomat">Zoológico Miguel Álvarez del Toro (ZOOMAT)</string>
+    <string name="zoomat_info">Hogar de numerosas especies endémicas, excelente opción educativa y recreativa para niños.</string>
+
+    <string name="museo_marimba">Museo de la Marimba</string>
+    <string name="museo_marimba_info">Ofrece una experiencia interactiva para aprender sobre este instrumento tradicional.</string>
+
+    <string name="joyyo_mayu">Parque Joyyo Mayu</string>
+    <string name="joyyo_mayu_info">Amplias áreas verdes y juegos infantiles para el disfrute de toda la familia.</string>
+
+    <!-- Parks -->
+    <string name="parque_marimba">Parque de la Marimba</string>
+    <string name="parque_marimba_info">Famoso por sus presentaciones nocturnas de marimba y ambiente familiar.</string>
+
+    <string name="parque_joyyo_mayu">Parque Joyyo Mayu</string>
+    <string name="parque_joyyo_mayu_info">Ofrece amplias áreas verdes, senderos y espacios para actividades al aire libre.</string>
+
+    <string name="parque_bicentenario">Parque Bicentenario</string>
+    <string name="parque_bicentenario_info">Espacio céntrico con áreas de descanso y juegos infantiles.</string>
+
+    <string name="parque_cana_hueca">Parque Caña Hueca</string>
+    <string name="parque_cana_hueca_info">Ideal para deportes y actividades recreativas, cuenta con canchas y áreas de picnic.</string>
+
+    <string name="parque_oriente">Parque del Oriente</string>
+    <string name="parque_oriente_info">Ofrece áreas verdes y espacios para la recreación familiar.</string>
+
+    <!-- Shopping Centers -->
+    <string name="galerias_boulevard">Plaza Galerías Boulevard</string>
+    <string name="galerias_boulevard_info">Cuenta con una amplia variedad de tiendas, restaurantes y opciones de entretenimiento.</string>
+
+    <string name="plaza_crystal">Plaza Crystal</string>
+    <string name="plaza_crystal_info">Ofrece diversas tiendas de moda, tecnología y una zona de comida.</string>
+
+    <string name="plaza_las_americas">Plaza Las Américas</string>
+    <string name="plaza_las_americas_info">Centro comercial con tiendas departamentales y cines.</string>
+
+    <string name="plaza_ambar">Plaza Ámbar Fashion Mall</string>
+    <string name="plaza_ambar_info">Moderno centro comercial con una variedad de boutiques y opciones gastronómicas.</string>
+
+    <string name="plaza_bonampak">Plaza Bonampak</string>
+    <string name="plaza_bonampak_info">Ofrece tiendas locales y espacios de entretenimiento.</string>
+
+    <string name="coffee_shops_info">Explora los mejores cafés de la ciudad, perfectos para disfrutar de una buena taza de café y un ambiente relajado.</string>
+    <string name="restaurants_info">Descubre restaurantes con una deliciosa variedad de platillos locales e internacionales para todos los gustos.</string>
+    <string name="kid_friendly_places_info">Lugares divertidos y seguros para pasar tiempo en familia y crear recuerdos inolvidables con los más pequeños.</string>
+    <string name="parks_info">Espacios naturales ideales para disfrutar de actividades al aire libre, relajarse y conectarse con la naturaleza.</string>
+    <string name="shopping_centers_info">Centros comerciales que ofrecen una experiencia completa de compras, entretenimiento y restaurantes.</string>
 </resources>
