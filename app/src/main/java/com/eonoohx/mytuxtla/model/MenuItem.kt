@@ -4,16 +4,16 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 interface MenuItem {
-    @get:StringRes
+    @get: StringRes
     val name: Int
 
-    @get:DrawableRes
+    @get: DrawableRes
     val image: Int
 }
 
 data class PlaceCategory(
     @StringRes override val name: Int,
-    @DrawableRes override val image: Int
+    override val image: Int
 ) : MenuItem
 
 data class Place(

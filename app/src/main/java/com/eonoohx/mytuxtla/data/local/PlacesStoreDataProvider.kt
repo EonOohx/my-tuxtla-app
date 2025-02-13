@@ -6,6 +6,8 @@ import com.eonoohx.mytuxtla.model.Place
 import com.eonoohx.mytuxtla.model.PlaceCategory
 
 object PlacesStoreDataProvider {
+    val defaultPlace = Place(-1, -1, "", -1)
+
     val listOfPlaces = listOf(
         // Coffee Shops
         Place(

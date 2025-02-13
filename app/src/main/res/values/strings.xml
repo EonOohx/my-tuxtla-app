@@ -51,9 +51,12 @@
     <string name="plaza_las_americas">Plaza Las Américas</string>
     <string name="plaza_las_americas_info">Centro comercial con tiendas departamentales y cines.</string>
 
+    <string name="no_found" />
+
     <string name="coffee_shops">Coffee Shops</string>
     <string name="restaurants">Restaurants</string>
     <string name="family_places">Family Places</string>
     <string name="parks">Parks</string>
     <string name="shopping_places">Shopping Places</string>
+    <string name="up_button">Back</string>
 </resources>
