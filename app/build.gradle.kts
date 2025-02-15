@@ -40,6 +40,9 @@ android {
 }
 
 dependencies {
+    // Adaptive Layout Library
+    implementation("androidx.compose.material3:material3-window-size-class-android")
+
     // Navigation librearies
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.navigation.ui.ktx)

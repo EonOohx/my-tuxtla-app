@@ -42,4 +42,12 @@ class PlacesViewModel : ViewModel() {
             )
         }
     }
+
+    fun resetInfoPlaceScreen() {
+        _uiState.update { currentUiState ->
+            currentUiState.copy(
+                currentPlace = null
+            )
+        }
+    }
 }
