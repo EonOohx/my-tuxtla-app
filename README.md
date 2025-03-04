@@ -1,4 +1,4 @@
-# 🏙️ My Tuxtla  
+# 🏙️ Mi Tuxtla  
 
 ### 📍 Aplicación de guía de lugares en la ciudad de Tuxtla Gutiérrez  
 
